@@ -19,28 +19,24 @@ body {
     cursor: pointer;
 }
 
-.pop_up {
-    translate: transform(100px);
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin: 2rem 5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: darkkhaki;
-}
-
-.pop_up .active {
-    translate: transform(200px);
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin: 2rem 5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: darkkhaki;
-}
-
 .btn:hover {
     transform: scale(1.01);
+    opacity: 50%;
+}
+
+#container {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.toast {
+    max-width: 300px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: whitesmoke;
 }
