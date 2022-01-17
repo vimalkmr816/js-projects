@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 3rem;
+    font-family: Inter;
+    color: blueviolet;
+    background: rgb(27, 27, 27);
+}
