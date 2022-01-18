@@ -1,0 +1,46 @@
+#open {
+    padding: 1rem;
+    border: 2px solid rgb(248, 231, 163);
+    cursor: pointer;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid rgb(105, 120, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Inter;
+    background: rgb(137, 149, 255);
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+}
+
+.container.active {
+    display: inline-flex;
+    position: absolute;
+}
+
+.pop_up {
+    padding: 0 2rem;
+}
+
+.container #close {
+    border: none;
+    background: rgb(105, 120, 255);
+    border-radius: 5px;
+    position: relative;
+    top: -43px;
+    right: 0.5rem;
+    font-weight: bold;
+    padding: 7px 12px;
+}
