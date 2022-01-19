@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C0070;
+}
+
+body p {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.carousel {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    border: 5px double #79018C;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+img {
+    object-fit: cover;
+    width: 600px;
+    height: 600px;
+}
